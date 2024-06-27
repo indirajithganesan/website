@@ -1,0 +1,107 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+} 
+body{
+      font-family: 'Outfit';
+}
+.contact-container{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.contact-left{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+}
+.contact-left-title h2{
+      font-weight: 600;
+      color: #a363aa;
+      font-size: 40px;
+      margin-bottom: 5px;
+}
+.description h2{
+      color:#ff994f;
+}
+.main-head h1{
+      color: #dd0e34e3;
+      font-size: 50px;
+}
+.link h1{
+      color:#08f15a;
+}
+.product h1{
+      color:rgb(227, 231, 15);
+}
+.thankyou h1{
+      color:#08f15a;
+}
+.number h1{
+      color:#db1222;
+}
+.address h1{
+      color:#4c0be5;
+}
+.product_img{
+      float: left;
+      width:50%;
+      padding:3px;
+      color:#08f15a;
+}
+.product_image{
+      float: left;
+      width:50%;
+      padding:3px;
+      color:#4c0be5;
+
+}
+
+
+.contact-left-title hr{
+      border: none;
+      width: 120px;
+      height: 5px;
+      background-color: #a363aa;
+      border-radius: 10px;
+      margin-bottom: 20px;       
+}
+
+.contact-left textarea{
+      height: 140px;
+      padding-top: 15px;
+      border-radius: 20px;
+}
+.contact-inputs:focus{
+      border: 2px solid #db1222;
+}
+.contact-left button{
+      display: flex;
+      align-items:center;
+      padding: 15px 30px;
+      font-size: 16px;
+      color: #fff;
+      gap: 10px;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(270deg,#ff994f,#fa6d86);
+      cursor: pointer;
+}
+.contact-left button img{
+      height: 15px;
+}
+.contact-right img{
+      width: 700px;
+}
+@media (max-width:800px) {
+      .contact-inputs{
+            width:80vm;
+      }
+      .contact-right{
+            display: none;
+      }
+      
+}
